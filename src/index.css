@@ -118,3 +118,20 @@
 #root {
   @apply w-full max-w-none m-0 p-0;
 }
+
+/* Custom animation classes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+/* Contact section text color fix */
+#contact .text-white {
+  @apply text-fashion-charcoal;
+}
+

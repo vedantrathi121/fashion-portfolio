@@ -27,13 +27,13 @@ const Navbar = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-sm shadow-sm' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="#home" className="text-2xl font-montserrat font-bold tracking-tighter">
+        <a href="#home" className={`text-2xl font-montserrat font-bold tracking-tighter ${scrolled ? 'text-fashion-charcoal' : 'text-white'}`}>
           PORTFOLIO
         </a>
         
         {/* Mobile Menu Button */}
         <button 
-          className="block md:hidden"
+          className={`block md:hidden ${scrolled ? 'text-fashion-charcoal' : 'text-white'}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -45,7 +45,7 @@ const Navbar = () => {
             <a 
               key={link.name}
               href={link.href}
-              className="font-montserrat text-sm uppercase tracking-wider hover:text-fashion-gold transition-colors"
+              className={`font-montserrat text-sm uppercase tracking-wider hover:text-fashion-gold transition-colors ${scrolled ? 'text-fashion-charcoal' : 'text-white'}`}
             >
               {link.name}
             </a>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 <a 
                   key={link.name}
                   href={link.href}
-                  className="font-montserrat text-sm uppercase tracking-wider py-3 hover:text-fashion-gold transition-colors"
+                  className="font-montserrat text-sm uppercase tracking-wider py-3 text-fashion-charcoal hover:text-fashion-gold transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.name}
