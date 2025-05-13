@@ -53,7 +53,7 @@ const ContactSection = () => {
                 <Mail className="h-5 w-5 mr-3 text-fashion-gold mt-1" />
                 <div>
                   <h3 className="font-montserrat font-medium">Email</h3>
-                  <p className="text-gray-700">contact@fashiondesigner.com</p>
+                  <p className="text-gray-700">ishwari.saboo@gmail.com</p>
                 </div>
               </div>
               
@@ -61,7 +61,7 @@ const ContactSection = () => {
                 <Phone className="h-5 w-5 mr-3 text-fashion-gold mt-1" />
                 <div>
                   <h3 className="font-montserrat font-medium">Phone</h3>
-                  <p className="text-gray-700">+1 (123) 456-7890</p>
+                  <p className="text-gray-700">+91 7219152666</p>
                 </div>
               </div>
               
@@ -70,9 +70,8 @@ const ContactSection = () => {
                 <div>
                   <h3 className="font-montserrat font-medium">Social Media</h3>
                   <div className="mt-2 space-x-4">
-                    <a href="#" className="text-gray-700 hover:text-fashion-gold transition-colors">Instagram</a>
-                    <a href="#" className="text-gray-700 hover:text-fashion-gold transition-colors">LinkedIn</a>
-                    <a href="#" className="text-gray-700 hover:text-fashion-gold transition-colors">Behance</a>
+                    <a href="https://www.linkedin.com/in/ishwari-saboo-266582245/" target="_blank" className="text-gray-700 hover:text-fashion-gold transition-colors">LinkedIn</a>
+                    <a href="#" target="_blank" className="text-gray-700 hover:text-fashion-gold transition-colors">Behance</a>
                   </div>
                 </div>
               </div>
