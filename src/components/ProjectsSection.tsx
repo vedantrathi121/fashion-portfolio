@@ -3,10 +3,10 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 // Import local images
-import sustainableThumbnail from '../../public/Pastel paradies.png';
+import sustainableThumbnail from '../../public/Pastelparadies.png';
 import urbanThumbnail from '../../public/Rangtarang.png';
-import eveningThumbnail from '../../public/Mars exploration X Button Masala.png';
-import textileThumbnail from '../../public/Temple Aesthetics.png';
+import eveningThumbnail from '../../public/Marsexploration.png';
+import textileThumbnail from '../../public/Templeaesthetics.png';
 import { ExternalLink } from 'lucide-react';
 
 const projects = [
