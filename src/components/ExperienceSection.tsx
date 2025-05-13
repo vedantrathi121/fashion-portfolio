@@ -20,17 +20,17 @@ const ExperienceSection = () => {
     },
     {
       title: "Fashion Design Intern",
-      company: "Leafage Studio, Pune",
-      period: "Dec 2022",
-      description: "Worked with eco-printing, natural dyeing, and assisted in creating a sustainable home décor collection. Learned sustainable design techniques and collaborative project development.",
-      skills: ["Adobe Illustrator", "Pattern Making", "Fashion Illustration"]
-    },
-    {
-      title: "Fashion Design Intern",
       company: "Rang Couture, Pune",
       period: "Jan 2023 – Mar 2023",
       description: "Assisted in studio operations, order dispatch, product checks, client-based design tasks, photography, and social media reel creation. Learned studio management, content creation, and visual storytelling for brand engagement.",
       skills: ["Visual Merchandising", "Trend Forecasting", "Wardrobe Styling"]
+    },
+    {
+      title: "Fashion Design Intern",
+      company: "Leafage Studio, Pune",
+      period: "Dec 2022",
+      description: "Worked with eco-printing, natural dyeing, and assisted in creating a sustainable home décor collection. Learned sustainable design techniques and collaborative project development.",
+      skills: ["Adobe Illustrator", "Pattern Making", "Fashion Illustration"]
     }
   ];
 
