@@ -21,10 +21,14 @@ const AboutSection = () => {
             </p>
             
             <div className="flex flex-wrap gap-3 mt-6">
-              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Sustainable Fashion</span>
-              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Digital Design</span>
-              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Pattern Making</span>
+              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Adobe Illustrator</span>
+              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Adobe Photoshop</span>
               <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Textile Innovation</span>
+              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Embroidery</span>
+              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Pattern making</span>
+              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">MS Office</span>
+              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Canva</span>
+              <span className="px-3 py-1 bg-white border border-fashion-gold text-sm rounded-full">Sustainable Fashion</span>
             </div>
           </div>
           
@@ -33,22 +37,22 @@ const AboutSection = () => {
             
             <Card className="border-l-4 border-l-fashion-gold">
               <CardContent className="p-6">
-                <div className="text-sm text-muted-foreground">2020 - Present</div>
-                <h4 className="font-montserrat text-xl font-medium mt-1">Bachelor of Fashion Design</h4>
-                <p className="text-fashion-charcoal mt-2">Fashion Institute of Design</p>
+                <div className="text-sm text-muted-foreground">2023 - 2025</div>
+                <h4 className="font-montserrat text-xl font-medium mt-1">MSc Fashion Design</h4>
+                <p className="text-fashion-charcoal mt-2">School of Fashion Technology, Pune</p>
                 <p className="mt-2">
-                  Specializing in sustainable fashion design with focus on innovative pattern cutting and digital design technology.
+                Studied MSc Fashion Designing from School of Fashion Technology, Pune
                 </p>
               </CardContent>
             </Card>
             
             <Card className="border-l-4 border-l-fashion-gold">
               <CardContent className="p-6">
-                <div className="text-sm text-muted-foreground">2018 - 2020</div>
-                <h4 className="font-montserrat text-xl font-medium mt-1">Associate Degree in Textile Design</h4>
-                <p className="text-fashion-charcoal mt-2">Art & Design Academy</p>
+                <div className="text-sm text-muted-foreground">2020 - 2023</div>
+                <h4 className="font-montserrat text-xl font-medium mt-1">MSc Fashion Design</h4>
+                <p className="text-fashion-charcoal mt-2">INIFD (PU) (Times Trends Academy)</p>
                 <p className="mt-2">
-                  Studied textile manipulation, fabric dyeing techniques, and sustainable material development.
+                  Studied Bsc Fashion Designing from INIFD (PU) (Times Trends Academy).
                 </p>
               </CardContent>
             </Card>
