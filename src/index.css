@@ -119,6 +119,10 @@
   @apply w-full max-w-none m-0 p-0;
 }
 
+.contact-me-color {
+  color: black;
+}
+
 /* Custom animation classes */
 @keyframes fadeIn {
   from { opacity: 0; }
