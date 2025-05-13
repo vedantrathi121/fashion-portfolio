@@ -6,16 +6,16 @@ const ExperienceSection = () => {
   const experiences = [
     {
       title: "Fashion Design Intern",
-      company: "Elevated Couture",
-      period: "Summer 2023",
-      description: "Assisted in the design process for the Fall/Winter collection. Created digital mood boards and technical flats. Participated in fittings and pattern adjustments.",
+      company: "Leafage, Pune",
+      period: "Winter 2021",
+      description: "I had learnt to make the product handcrafted with Nature and also Botanical/Eco printing.",
       skills: ["Adobe Illustrator", "Pattern Making", "Fashion Illustration"]
     },
     {
-      title: "Assistant Stylist",
-      company: "Style & Grace Magazine",
+      title: "Fashion Design Intern",
+      company: "Rang, Pune",
       period: "Spring 2022",
-      description: "Collaborated with photographers and creative directors on editorial shoots. Managed wardrobe organization and prepared outfits for photoshoots. Sourced accessories and props to complement styling themes.",
+      description: "I had learnt following skills- Boutique Management, Team Work, Client Handling, Stitching, Wraping.",
       skills: ["Visual Merchandising", "Trend Forecasting", "Wardrobe Styling"]
     },
     {
