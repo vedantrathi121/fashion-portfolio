@@ -23,7 +23,7 @@ const HeroSection = () => {
             <span className="text-fashion-gold">Portfolio</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-8 animate-slide-up">
-            Blending innovation with classic elegance to create unique and memorable designs.
+            Fashion designer - Desiging what doesn't exists yet...
           </p>
           <div className="flex flex-wrap gap-4">
             <Button 
