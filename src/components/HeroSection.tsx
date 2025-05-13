@@ -12,14 +12,14 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-[-1]"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1486718448742-163732cd1544?ixlib=rb-4.0.3&auto=format&fit=crop&w=2167&q=80')"
+          backgroundImage: "url('https://www.pixelstalk.net/wp-content/uploads/2016/06/Fashion-Wallpaper-HD-Download.jpg')"
         }}
       ></div>
       
       <div className="container mx-auto px-4 z-10">
         <div className="max-w-3xl text-white">
           <h1 className="font-montserrat text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
-            Fashion Design <br/>
+          Ishwari Saboo <br/>
             <span className="text-fashion-gold">Portfolio</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-8 animate-slide-up">
@@ -41,7 +41,7 @@ const HeroSection = () => {
               size="lg"
               asChild
             >
-              <a href="#contact">Contact Me</a>
+              <a href="#contact" className='contact-me-color'>Contact Me</a>
             </Button>
           </div>
         </div>
