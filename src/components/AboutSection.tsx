@@ -10,9 +10,8 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
           <div className="space-y-6">
             <p className="text-lg">
-              As a passionate fashion design student, I am dedicated to creating innovative and sustainable 
-              designs that blend contemporary aesthetics with timeless elegance. My approach to fashion combines 
-              creative vision with technical precision to produce pieces that are both beautiful and functional.
+              I love pushing boundaries in fashion — whether it’s experimenting with new materials, exploring creative techniques, or finding sustainable ways to bring ideas to life.
+              For me, design is all about learning, growing, and creating work that feels honest, fresh, and meaningful.
             </p>
             
             <p className="text-lg">
@@ -49,7 +48,7 @@ const AboutSection = () => {
             <Card className="border-l-4 border-l-fashion-gold">
               <CardContent className="p-6">
                 <div className="text-sm text-muted-foreground">2020 - 2023</div>
-                <h4 className="font-montserrat text-xl font-medium mt-1">MSc Fashion Design</h4>
+                <h4 className="font-montserrat text-xl font-medium mt-1">BSc Fashion Design</h4>
                 <p className="text-fashion-charcoal mt-2">INIFD (PU) (Times Trends Academy)</p>
                 <p className="mt-2">
                   Studied Bsc Fashion Designing from INIFD (PU) (Times Trends Academy).
