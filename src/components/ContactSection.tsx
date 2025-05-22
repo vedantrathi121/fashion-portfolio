@@ -71,7 +71,7 @@ const ContactSection = () => {
                   <h3 className="font-montserrat font-medium">Social Media</h3>
                   <div className="mt-2 space-x-4">
                     <a href="https://www.linkedin.com/in/ishwari-saboo-266582245/" target="_blank" className="text-gray-700 hover:text-fashion-gold transition-colors">LinkedIn</a>
-                    <a href="#" target="_blank" className="text-gray-700 hover:text-fashion-gold transition-colors">Behance</a>
+                    <a href="https://www.behance.net/ishwari__12" target="_blank" className="text-gray-700 hover:text-fashion-gold transition-colors">Behance</a>
                   </div>
                 </div>
               </div>
