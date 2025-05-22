@@ -52,7 +52,7 @@ const projects = [
     title: "Jute research work",
     thumbnail: juteProject,
     description:
-      "An experimental textile project exploring innovative fabric treatments, including heat-reactive dyes, 3D printed embellishments, and modular construction techniques.",
+      "An exploratory textile research project focused on reinventing jute through contemporary techniques such as natural fiber blending, and modular weaving systems to elevate its potential in sustainable fashion and product design.",
     tools: ["Digital Printing", "Material Innovation", "Textile Manipulation"],
     driveLink: "https://drive.google.com/file/d/1aUErry9B71e1pIus5fmCXkUxkaLmGC75/view?usp=drive_link",
   },
