@@ -7,6 +7,7 @@ import sustainableThumbnail from '../../public/Pastelparadies.png';
 import urbanThumbnail from '../../public/Rangtarang.png';
 import eveningThumbnail from '../../public/Marsexploration.png';
 import textileThumbnail from '../../public/Templeaesthetics.png';
+import juteProject from '../../public/juteProject.png';
 import { ExternalLink } from 'lucide-react';
 
 const projects = [
@@ -49,7 +50,7 @@ const projects = [
   {
     id: 5,
     title: "Jute research work",
-    thumbnail: textileThumbnail,
+    thumbnail: juteProject,
     description:
       "An experimental textile project exploring innovative fabric treatments, including heat-reactive dyes, 3D printed embellishments, and modular construction techniques.",
     tools: ["Digital Printing", "Material Innovation", "Textile Manipulation"],
