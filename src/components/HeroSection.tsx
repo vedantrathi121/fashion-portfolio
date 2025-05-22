@@ -1,6 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import bgImage from '../../../public/background.jpg';
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center z-[-1]"
         style={{
-          backgroundImage: "url('https://www.pixelstalk.net/wp-content/uploads/2016/06/Fashion-Wallpaper-HD-Download.jpg')"
+          backgroundImage: `url(${bgImage})`
         }}
       ></div>
       
