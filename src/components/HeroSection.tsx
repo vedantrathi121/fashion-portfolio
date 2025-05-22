@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import bgImage from '../../../public/background.jpg';
+import bgImage from '../../public/background.jpg';
 
 const HeroSection = () => {
   return (
