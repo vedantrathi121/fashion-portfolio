@@ -15,8 +15,6 @@ const projects = [
     id: 1,
     title: "The Pastel Pardies",
     thumbnail: sustainableThumbnail,
-    description:
-      "A collection of summer pieces created using organic cotton, recycled polyester and low-impact dyes. This project explored the balance between eco-friendly production and contemporary aesthetics.",
     tools: ["Adobe Illustrator", "Sustainable Materials", "Hand Sewing"],
     driveLink: "https://drive.google.com/file/d/1SBobdS6DTQXPF2qM77tlvtOBY2BaHhLM/view?usp=drive_link",
   },
@@ -24,8 +22,6 @@ const projects = [
     id: 2,
     title: "Rang Tarang",
     thumbnail: urbanThumbnail,
-    description:
-      "A minimalist streetwear collection focusing on clean lines, monochromatic palettes, and functional design. This project aimed to create versatile everyday pieces with architectural influences.",
     tools: ["Digital Pattern Making", "Fabric Manipulation", "3D Modeling"],
     driveLink: "https://drive.google.com/file/d/1K2FzmULmigki0Eh5eMjnyyQag77fM24o/view?usp=drive_link",
   },
@@ -33,8 +29,6 @@ const projects = [
     id: 3,
     title: "Mars Exploration X Button Masala",
     thumbnail: eveningThumbnail,
-    description:
-      "A collection of evening gowns inspired by Art Deco architecture and 1920s glamour. Features intricate beadwork, luxurious fabrics, and dramatic silhouettes for special occasions.",
     tools: ["Draping", "Embroidery", "Couture Techniques"],
     driveLink: "https://drive.google.com/file/d/1Wu3QCyvPf_oMIGVJQLbjV_bbnDn2d4Ni/view?usp=drive_link",
   },
@@ -42,8 +36,6 @@ const projects = [
     id: 4,
     title: "Temple Aesthetics",
     thumbnail: textileThumbnail,
-    description:
-      "An experimental textile project exploring innovative fabric treatments, including heat-reactive dyes, 3D printed embellishments, and modular construction techniques.",
     tools: ["Digital Printing", "Material Innovation", "Textile Manipulation"],
     driveLink: "https://drive.google.com/file/d/1p2Sd92D3YwWWpEpnqIL1EipA48khsQA7/view?usp=drive_link",
   },
@@ -51,8 +43,6 @@ const projects = [
     id: 5,
     title: "Jute research work",
     thumbnail: juteProject,
-    description:
-      "An exploratory textile research project focused on reinventing jute through contemporary techniques such as natural fiber blending, and modular weaving systems to elevate its potential in sustainable fashion and product design.",
     tools: ["Digital Printing", "Material Innovation", "Textile Manipulation"],
     driveLink: "https://drive.google.com/file/d/1aUErry9B71e1pIus5fmCXkUxkaLmGC75/view?usp=drive_link",
   },
@@ -83,7 +73,6 @@ const ProjectsSection = () => {
 
               <CardContent className="p-6">
                 <h3 className="font-montserrat text-xl font-medium mb-3">{project.title}</h3>
-                <p className="text-gray-600 line-clamp-2 mb-5">{project.description}</p>
 
                 <div className="flex gap-2">
                   <Button
