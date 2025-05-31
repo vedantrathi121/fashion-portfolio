@@ -39,9 +39,6 @@ const AboutSection = () => {
                 <div className="text-sm text-muted-foreground">2023 - 2025</div>
                 <h4 className="font-montserrat text-xl font-medium mt-1">MSc Fashion Design</h4>
                 <p className="text-fashion-charcoal mt-2">School of Fashion Technology, SNDT University, Pune</p>
-                <p className="mt-2">
-                Studied MSc Fashion Designing from School of Fashion Technology, Pune
-                </p>
               </CardContent>
             </Card>
             
@@ -50,9 +47,6 @@ const AboutSection = () => {
                 <div className="text-sm text-muted-foreground">2020 - 2023</div>
                 <h4 className="font-montserrat text-xl font-medium mt-1">BSc Fashion Design</h4>
                 <p className="text-fashion-charcoal mt-2">INIFD (PU) (Times Trends Academy), SPPU university, Pune</p>
-                <p className="mt-2">
-                  Studied Bsc Fashion Designing from INIFD (PU) (Times Trends Academy).
-                </p>
               </CardContent>
             </Card>
           </div>
