@@ -24,7 +24,7 @@ const HeroSection = () => {
             <span className="text-fashion-gold">Portfolio</span>
           </h1>
           <p className="text-xl md:text-2xl opacity-90 mb-8 animate-slide-up">
-            Fashion designer - Desiging what doesn't exists yet...
+            Fashion designer - Desiging what doesn't exist yet...
           </p>
           <div className="flex flex-wrap gap-4">
             <Button 
