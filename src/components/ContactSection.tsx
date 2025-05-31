@@ -77,55 +77,6 @@ const ContactSection = () => {
               </div>
             </div>
           </div>
-          
-          <div>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block mb-2 font-montserrat">Name</label>
-                <Input 
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="border-fashion-charcoal/20 focus-visible:ring-fashion-gold"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="email" className="block mb-2 font-montserrat">Email</label>
-                <Input 
-                  id="email"
-                  name="email"
-                  type="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="border-fashion-charcoal/20 focus-visible:ring-fashion-gold"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="message" className="block mb-2 font-montserrat">Message</label>
-                <Textarea 
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  rows={5}
-                  required
-                  className="border-fashion-charcoal/20 focus-visible:ring-fashion-gold resize-none"
-                />
-              </div>
-              
-              <Button 
-                type="submit" 
-                className="bg-fashion-gold hover:bg-fashion-gold/90 text-black rounded-none w-full"
-              >
-                Send Message
-              </Button>
-            </form>
-          </div>
         </div>
       </div>
     </section>
