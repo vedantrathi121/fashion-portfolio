@@ -3,7 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 // Import local images
-import dhaagasutraThumbnail from '../../public/Pastelparadies.png';
+import dhaagasutraThumbnail from '../../public/Dhaagasutra.png';
 import sustainableThumbnail from '../../public/Pastelparadies.png';
 import urbanThumbnail from '../../public/Rangtarang.png';
 import eveningThumbnail from '../../public/Marsexploration.png';
@@ -17,7 +17,7 @@ const projects = [
     title: "Dhaagasutra design portfolio",
     thumbnail: dhaagasutraThumbnail,
     tools: ["Adobe Illustrator", "Pro create", "Canva"],
-    driveLink: "https://drive.google.com/file/d/1SBobdS6DTQXPF2qM77tlvtOBY2BaHhLM/view?usp=drive_link",
+    driveLink: "https://drive.google.com/file/d/1AhyCPDpkZBYOBFzC5yPJXUGIUvD0G2r5/view?usp=drivesdk",
   },
   {
     id: 2,
