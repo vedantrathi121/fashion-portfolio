@@ -3,6 +3,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
 // Import local images
+import dhaagasutraThumbnail from '../../public/Pastelparadies.png';
 import sustainableThumbnail from '../../public/Pastelparadies.png';
 import urbanThumbnail from '../../public/Rangtarang.png';
 import eveningThumbnail from '../../public/Marsexploration.png';
@@ -13,34 +14,41 @@ import { ExternalLink } from 'lucide-react';
 const projects = [
   {
     id: 1,
+    title: "Dhaagasutra design portfolio",
+    thumbnail: dhaagasutraThumbnail,
+    tools: ["Adobe Illustrator", "Pro create", "Canva"],
+    driveLink: "https://drive.google.com/file/d/1SBobdS6DTQXPF2qM77tlvtOBY2BaHhLM/view?usp=drive_link",
+  },
+  {
+    id: 2,
     title: "The Pastel Pardies",
     thumbnail: sustainableThumbnail,
     tools: ["Adobe Illustrator", "Sustainable Materials", "Hand Sewing"],
     driveLink: "https://drive.google.com/file/d/1SBobdS6DTQXPF2qM77tlvtOBY2BaHhLM/view?usp=drive_link",
   },
   {
-    id: 2,
+    id: 3,
     title: "Rang Tarang",
     thumbnail: urbanThumbnail,
     tools: ["Digital Pattern Making", "Fabric Manipulation", "3D Modeling"],
     driveLink: "https://drive.google.com/file/d/1K2FzmULmigki0Eh5eMjnyyQag77fM24o/view?usp=drive_link",
   },
   {
-    id: 3,
+    id: 4,
     title: "Mars Exploration X Button Masala",
     thumbnail: eveningThumbnail,
     tools: ["Draping", "Embroidery", "Couture Techniques"],
     driveLink: "https://drive.google.com/file/d/1Wu3QCyvPf_oMIGVJQLbjV_bbnDn2d4Ni/view?usp=drive_link",
   },
   {
-    id: 4,
+    id: 5,
     title: "Temple Aesthetics",
     thumbnail: textileThumbnail,
     tools: ["Digital Printing", "Material Innovation", "Textile Manipulation"],
     driveLink: "https://drive.google.com/file/d/1p2Sd92D3YwWWpEpnqIL1EipA48khsQA7/view?usp=drive_link",
   },
   {
-    id: 5,
+    id: 6,
     title: "Jute research work",
     thumbnail: juteProject,
     tools: ["Digital Printing", "Material Innovation", "Textile Manipulation"],
