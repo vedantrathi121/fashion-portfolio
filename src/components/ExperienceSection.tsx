@@ -8,7 +8,7 @@ const ExperienceSection = () => {
       title: "Fashion Designer",
       company: "Dhaagasutra, Pune",
       period: "June 2025 – Ongoing",
-      description: "Worked as a fashion designer where handled the entire process from client handling -> design creation -> production -> client delivery. Also handled social media market and ran photo shoot campaigns for the brand.",
+      description: "Managing end-to-end fashion design process from client handling to design creation, production, and final delivery. Also handled social media marketing and lead photoshoot campaigns for the brand.",
       skills: ["Fashion designing", "Client handling", "Production Coordination", "Social Media Handling", "Digital Marketing"]
     },
     {
